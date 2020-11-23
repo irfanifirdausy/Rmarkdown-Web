@@ -1,0 +1,27 @@
+name: "my-website"
+navbar:
+  title: "Irfani Web"
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About"
+      icon: fa-info
+      href: about.html
+    - text: "Contact"
+      icon: fa-envelope
+      href: contact.html  
+    - text: "More"
+      icon: fa-gear
+      menu:
+        - text: "Page A"
+          href: page_a.html
+        - text: "---------"
+        - text: "Page B"
+          href: page_b.html
+        - text: "Page C"
+          href: page_c.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: https://about.me/irfani.firdausy
